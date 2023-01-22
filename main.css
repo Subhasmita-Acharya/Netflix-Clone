@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cont{
+    height:625px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.65);
+    color: #fff;
+}
+.r{
+    height: 250px;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/eb83fa55-ab10-476a-b103-499eb7c6e022/IN-en-20230103-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bod{
+    height: 100px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    height: 70px;
+    width:300px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.lang{
+    height: 40px;
+    width:150px;
+    padding: 0px;
+    background-color: rbga(26,6,6,0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.language{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    padding: 0px;
+    background-color: rgba(0,0,0, 0.45);
+    outline: none;
+    border: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 25px;
+}
+.fi fi-rr-globe{
+    font-size: 20px;
+}
+select option{
+    background-color: white;
+    color: black;
+}
+.button{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 110px;
+    padding: 0px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container1{
+    height: 240px;
+    width:100%;
+    padding-top: 120px;
+    padding-left: 330px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.bar{
+    height: 60px;
+    width: 500px;
+    outline: none;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+.get{
+    height: 60px;
+    width: 200px;
+    padding: 0px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 25px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
